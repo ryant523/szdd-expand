@@ -1,0 +1,23 @@
+{
+  "name": "szdd-expand",
+  "version": "1.0.0",
+  "description": "Expand files compressed in szdd format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryant523/szdd-expand.git"
+  },
+  "author": "ryant523@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryant523/szdd-expand/issues"
+  },
+  "homepage": "https://github.com/ryant523/szdd-expand#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}

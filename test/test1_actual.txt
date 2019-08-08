@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const RestApiRequestError_1 = require("./RestApiRequestError");
+class BootError extends RestApiRequestError_1.RestApiRequestError {
+    constructor(_message) {
+        super(500);
+        this._message = _message;
+    }
+    get message() {
+        return this._message;
+    }
+}
+exports.BootError = BootError;
+//# sourceMappingURL=BootError.js.map
