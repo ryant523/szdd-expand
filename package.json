@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ryant523/szdd-expand#readme",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "ncp": "^2.0.0"
   }
 }
